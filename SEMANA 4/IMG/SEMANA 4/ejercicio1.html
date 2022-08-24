@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISTA Y FORMURAIO</title>
+</head>
+<body style="background-color: coral;">
+    <header>
+    <img src="" alt="" height="100" width="100">
+    <h1>LISTA Y FORMULARIOP HTML</h1>
+    </header>
+<nav>
+<Ul>
+    <li type="square"style="color: width" >HOMER</li>
+    <li type="square"style="color: width" >PRODUCTOS </li>
+    <li type="square"style="color: width" >SERVICIOS</li>
+    <li type="square"style="color: width" >CONTACTO</li>
+</Ul>
+</nav>
+<section>
+    <form action="datos.php" method="post">
+        <fieldset>
+            <label>Nombre completo </label>
+            <input type="text" name="nombre" placeholder="ingrese su nombre" required><br><br>
+            
+            <label>Email</label>
+            <input type="text" name="email" placeholder="ingrese su email" required><br><br>
+
+            <label>Contraseña</label>
+            <input type="password" name="Contraseña" placeholder="ingrese su Contraseña" required><br><br>
+            <hr>
+            <label> Seleccione tus hobbies</label>
+            <br>
+            <input type="checkbox" name="cine">CINE<br>
+            <input type="checkbox" name="lectura">LECTURA<br>
+            <input type="checkbox"name="deportes">DEPORTES <br>
+            <hr>
+
+            <label>Estado civil:</label> <br>
+            <input type="radio" name="estcivil" value="casado">CASADO(A) <br>
+            <input type="radio"name="estcivil" value="soltero">SOLTERO(A) <br>
+            <input type="radio"name="estcivil" value="viudo">VIUDO(A) <br><br>
+            <hr>
+            <label >PROGRAMAS TECNICOS </label>
+            <select name="select">
+                <option>Seleccion programa></option>
+                <option>Sistemas</option>
+                <option> Diseño grafico</option>
+                <option> Contabilidad</option>
+            </select>
+            <br><br>
+            <hr>
+            <label>Tu comentario</label> <br>
+            <textarea name="mensaje" id="" cols="40" rows="5"></textarea>
+        </fieldset>
+        <br><br>
+        <button type="submit">ENVIAR</button>
+        <button type="reset">CANCELAR</button>
+        <br><br>
+        </form>
+    </section>
+<footer>
+    Derechos reservados &copy;2022 &#64; Nicolas
+</footer>
+</body>
+</html>
